@@ -1,0 +1,64 @@
+.head {
+    padding: 20px;
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+}
+
+.header {
+    font-weight: bold;
+}
+
+.menu {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 220px; /* Set the width of the sidebar */
+  position: fixed;
+  left: 0;
+  background-color: #111; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding: 20px;
+  color: white;
+}
+
+.body {
+    padding: 20px;
+    position: absolute;
+    left: 300px;
+}
+
+table {
+  display: inline-table;
+  margin: 1em;
+  border: solid 1px;
+  border-collapse: collapse;
+  font-size: 15px
+}
+
+table td{
+  border: solid 1px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.landingImg {
+    height: 40vh;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.landingImg:hover {
+    height: 50vh;
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.headN {
+    padding: 20px;
+    position: fixed;
+    left: 300px;
+}
